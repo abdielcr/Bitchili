@@ -1,0 +1,168 @@
+/* Seteamos los valores para que el navegador no ponga margenes ni paddings por defecto*/
+* {
+  margin:0px;
+  padding:0px;
+}
+
+body{
+  background-color:black;
+}
+/*--------------------------------------------------------------------------------------------*/
+/*Empieza area de contenedores*/
+div#vacio{
+  width:100%;
+  height:90px;
+  background-color:black;
+  position:fixed;
+  opacity: 0.8;
+
+  
+}
+div#contenedor{
+  width:100%;
+  height:450px;
+  background-image:url(img/fondo1.jpg);
+}
+div#contenedor2{
+  width:100%;
+  height:450px;
+  background-color:white;
+  background-image:url(img/fondo1.jpg);
+}
+div#contenedor3{
+  width:100%;
+  height:450px;
+  background-color:white;
+  background-image:url(img/fondo1.jpg);
+}
+div#contenedor4{
+  width:100%;
+  height:450px;
+  background-color:white;
+  background-image:url(img/fondo1.jpg);
+}
+/*Termina area de contenedores*/
+/*--------------------------------------------------------------------------------------------*/
+/*Area de imagenes pegadas al fondo*/
+div#imagen1{
+  width:100%;
+  height:1000px;
+  background: url(img/web1.jpg)
+  50% 110px no-repeat,
+  top center no-repeat;
+  background-size: 100%;
+ background-attachment: fixed !important;
+}
+
+div#imagen2{
+  width:100%;
+  height:1000px;
+  background: url(img/web2.jpg)
+  100% 100px no-repeat,
+  top center no-repeat;
+  background-size: 100%;
+  background-attachment: fixed !important;
+}
+div#imagen3{
+  width:100%;
+  height:1000px;
+  background: url(img/web3.jpg)
+  50% 110px no-repeat,
+  top center no-repeat;
+  background-size: 100%;
+  background-attachment: fixed !important;
+}
+div#imagen4{
+  width:100%;
+  height:1000px;
+  background: url(img/web4.jpg)
+  50% 110px no-repeat,
+  top center no-repeat;
+  background-size: 100%;
+  background-attachment: fixed !important;
+}
+div#imagen5{
+  width:100%;
+  height:1000px;
+  background: url(img/web5.jpg)
+  50% 110px no-repeat,
+  top center no-repeat;
+  background-size: 100%;
+  background-attachment: fixed !important;
+}
+/*Fin de de area de imagenes*/
+/*---------------------------------------------------------------------------------------------*/
+/*Pie de pagina*/
+div#footer{
+  width:100%;
+  height:90px;
+  background-color:black;
+  position:absolute;
+  font-size: 11px;
+}
+
+div#footer,h5{
+ 
+  font-size: 15px;
+}
+
+
+
+/*Fin dePie de pagina*/
+
+/*Formato para textos*/
+li{
+  color:white;
+  display:inline-block;
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+  margin-left: 5px;
+  margin-top: 25px;
+  padding-left:15px;
+
+  
+  
+}
+li:hover{
+ 
+ color:#d51a47;
+  
+}
+p{
+  margin-left: 20px;
+  color:#533;
+}
+ul{
+  display:inline-block;
+}
+
+h1{
+  color:#3a2941;
+	text-align: center;
+  font-family: ‘Metrophobic’, Arial, serif; font-weight: 1000; 
+  font-size:55px;
+}
+h4{
+color: #1b2c45; text-shadow: silver 0.1em 0.4em 0.3  em;
+line-height: 35px; 
+font-size: 1.5em;
+font-family: ‘Metrophobic’, Arial, serif; font-weight: 700;
+padding-top: 15px;
+padding-left: 55px;
+}
+h5{
+color:silver;
+padding-top: 15px;
+padding-left: 25px;
+}
+/*Fin de formato para textos*/ 	
+  
+/*Clases para redondear imagenes */
+  .redondo img {
+border: 2px solid grey;
+margin: 5px;
+padding: 0;
+border-radius: 700px;
+overflow: hidden;
+/* Fin de Clases para redondear imagenes */
+}

@@ -1,0 +1,49 @@
+
+body {
+        text-align: center;
+        background: url("imgs/ciudad.jpg");; 
+        color:white;
+        font-family: Helvetica;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+     }
+
+input {
+       border: 0;
+       padding: 12px;
+       font-size: 18px;
+  }
+input[type="submit"] {
+       background: #58b9fc;
+       color: black;
+  }
+ img {
+       border-bottom-right-radius: 10% 5%;
+       border-top-left-radius: 10% 5%;
+  }   
+
+p {
+       font-size: 24px;
+       color: white; text-shadow: black 0.1em 0.0em 0.3em;
+  }
+ul,li{
+
+       display: inline-block;
+       margin-left: 20px;
+
+     }
+
+ li:hover{
+        -webkit-transform:scale(1.5);
+        
+       
+  }
+
+article,#social{
+       background-color: white;
+       opacity: 0.5;
+       margin-top: 65px;
+       
+  }     
